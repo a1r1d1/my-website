@@ -1,0 +1,382 @@
+<html lang="ar" dir="rtl" style="scroll-behavior: smooth;"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خارطة المشاريع - محمد صالح العلي</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/roadmap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&amp;display=swap" rel="stylesheet">
+</head>
+<body data-theme="light">
+    <header>
+        <nav>
+            <a href="index.html" class="logo">محمد صالح العلي</a>
+            <button class="mobile-menu-button" aria-label="Toggle Menu">
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">الرئيسية</a>
+                <a href="index.html#about" class="nav-link">نبذة عني</a>
+                <a href="index.html#projects" class="nav-link">المشاريع</a>
+                <a href="index.html#skills" class="nav-link">المهارات</a>
+                <a href="index.html#experience" class="nav-link">الخبرات</a>
+                <a href="book.html" class="nav-link">كتابي</a>
+                <a href="index.html#contact" class="nav-link">تواصل معي</a>
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <a href="#" class="back-button lux-fade-in" id="backButton">
+        <i class="fas fa-arrow-right"></i>
+    </a>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var backButton = document.getElementById('backButton');
+        if (backButton) {
+            backButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                var path = window.location.pathname.replace(/\\/g, '/');
+                var isHome = path.endsWith('/index.html') || path === '/' || path === '';
+                if (isHome) {
+                    window.location.reload();
+                } else {
+                    window.location.href = 'index.html';
+                }
+            });
+        }
+    });
+    </script>
+
+    <main>
+        <section class="roadmap-container">
+            <h1 class="fade-in animate">خارطة المشاريع</h1>
+            <div class="timeline">
+                <!-- 2022 -->
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/unicef-logo-png_seeklogo-144974.png" alt="العربة الكهربائية" />
+                                <img class="thumb-plain" src="images/imagen.jpg" alt="العربة الكهربائية" />
+                            </div>
+                            <span class="project-title-text">العربة الكهربائية</span>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.2rem;">
+                                <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2022</span>
+                                <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                    <span class="arrow-icon">▼</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>مشروع "العربة الكهربائية" هو مبادرة مبتكرة تهدف إلى تحسين جودة الحياة داخل المخيمات من خلال توفير وسيلة نقل صديقة للبيئة وفعّالة. تم تصميم العربة لتلبية احتياجات السكان اليومية، مثل نقل المياه والمؤن، مع مراعاة التحديات البيئية والاقتصادية. واجه الفريق تحديات في التمويل والتصميم، لكن بالإصرار والعمل الجماعي تمكنا من تحويل الفكرة إلى واقع ملموس أحدث فرقاً حقيقياً في حياة الكثيرين.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2022</span>
+                                <span>تاريخ التنفيذ: 2022</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">نوفمبر 2022</span>
+                                    <p>إطلاق المشروع وتوزيع العربات الكهربائية</p>
+                                </div>
+                                <div class="update">
+                                    <span class="update-date">ديسمبر 2022</span>
+                                    <p>تكريم المشروع وتقدير جهود الفريق</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2023 -->
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/imagen.jpg" alt="تكريم عالمي" />
+                                <img class="thumb-plain" src="images/unicef-logo-png_seeklogo-144974.png" alt="توثيق" />
+                            </div>
+                            <span class="project-title-text">تكريم عالمي</span>
+                            <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.2rem;">
+                                <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2023</span>
+                                <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                    <span class="arrow-icon">▼</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>يمثل هذا المشروع تتويجاً لمسيرة من العمل الدؤوب والابتكار، حيث حصلنا على اعتراف وتكريم عالمي تقديراً للجهود المبذولة في خدمة المجتمع والبيئة. هذا التكريم لم يكن مجرد جائزة، بل كان دافعاً للاستمرار في تطوير حلول مستدامة تلبي احتياجات الفئات الأكثر ضعفاً، وتعزز من مكانة الفريق على الساحة الدولية.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2023</span>
+                                <span>تاريخ التنفيذ: 2023</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">مارس 2023</span>
+                                    <p>حصول المشروع على جائزة الابتكار العالمية</p>
+                                </div>
+                                <div class="update">
+                                    <span class="update-date">مايو 2023</span>
+                                    <p>تكريم شخصي في مؤتمر الابتكار العالمي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/unicef-logo-png_seeklogo-144974.png" alt="مشروع تكثيف الهواء" />
+                                <img class="thumb-plain" src="images/imagen.jpg" alt="مشروع تكثيف الهواء" />
+                            </div>
+                            <span class="project-title-text">مشروع تكثيف الهواء</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2023</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>بدأت فكرة "مشروع تكثيف الهواء" في عام 2023 استجابةً للحاجة الملحة لتوفير مصادر مياه نظيفة ومستدامة في المخيمات والمناطق الجافة. يهدف المشروع إلى ابتكار جهاز متطور قادر على استخلاص بخار الماء من الهواء وتحويله إلى مياه صالحة للشرب والاستخدام اليومي. واجه الفريق تحديات تقنية وبيئية كبيرة، لكن الإصرار على إيجاد حل إنساني دفعنا لتطوير نموذج أولي فعال. هذا المشروع يمثل بارقة أمل للآلاف من الأسر التي تعاني من شح المياه، ويجسد روح الابتكار والتضامن الإنساني في مواجهة الأزمات.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2023</span>
+                                <span>تاريخ التنفيذ: 2025</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">مارس 2025</span>
+                                    <p>بدء تطوير الجهاز واختبار النماذج الأولية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2024 -->
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/كير-removebg-preview.png" alt="الطاولة الذكية" />
+                            </div>
+                            <span class="project-title-text">الطاولة الذكية</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2024</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>مشروع "الطاولة الذكية" هو ثمرة شغف بالابتكار والتكنولوجيا، حيث تم تصميم طاولة متعددة الوظائف تجمع بين الأناقة والذكاء الاصطناعي. تتيح هذه الطاولة للمستخدمين التحكم في الأجهزة الذكية، وتوفر حلولاً عملية للمساحات الصغيرة، مع الحفاظ على جمالية التصميم. واجهنا تحديات تقنية في دمج الأنظمة الذكية، لكن النتيجة كانت منتجاً فريداً يلبي تطلعات المستخدم العصري.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2024</span>
+                                <span>تاريخ التنفيذ: 2024</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">يناير 2024</span>
+                                    <p>بداية تصميم الطاولة الذكية</p>
+                                </div>
+                                <div class="update">
+                                    <span class="update-date">يونيو 2024</span>
+                                    <p>إطلاق النسخة الأولى من الطاولة الذكية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/inzone-removebg-preview.png" alt="برنامج مكثف" />
+                                <img class="thumb-plain" src="images/jennef.png" alt="برنامج مكثف" />
+                            </div>
+                            <span class="project-title-text">برنامج مكثف</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2024</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>يعد "البرنامج المكثف" تجربة تعليمية متقدمة تهدف إلى تمكين المشاركين من اكتساب مهارات متخصصة في الأمن السيبراني وتكنولوجيا المعلومات والذكاء الاصطناعي. تم تصميم البرنامج ليجمع بين الجانب النظري والتطبيقي، مع التركيز على المشاريع العملية والتدريب الميداني، مما يضمن للخريجين جاهزية عالية لسوق العمل الحديث.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2024</span>
+                                <span>تاريخ التنفيذ: 2024</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">ديسمبر 2024</span>
+                                    <p>بداية البرنامج المكثف</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2025 -->
+                <div class="timeline-item fade-in active">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/jennef.png" alt="برنامج مكثف" />
+                                <img class="thumb-plain" src="images/صورة_واتساب_بتاريخ_1446-11-20_في_20.27.54_c2d1ddfd-removebg-preview.png" alt="برنامج مكثف" />
+                                <img class="thumb-plain" src="images/inzone-removebg-preview.png" alt="مشروع المقارنة الأثرية الجالي" />
+                                <img class="thumb-plain" src="images/images.png" alt="مشروع المقارنة الأثرية الجالي" />
+                            </div>
+                            <span class="project-title-text">مشروع المقارنة الأثرية الجالي</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2025</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>مشروع علمي فريد يهدف إلى مقارنة المواقع الأثرية بين تدمر والبتراء بالتعاون مع جامعة لوزان. يركز المشروع على دراسة أوجه التشابه والاختلاف في العمارة والتاريخ، ويعتمد على أحدث التقنيات في التوثيق والتحليل. يساهم هذا العمل في تعزيز الفهم الثقافي والحضاري، ويفتح آفاقاً جديدة للتعاون الأكاديمي الدولي.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2025</span>
+                                <span>تاريخ التنفيذ: 2025</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">يناير 2025</span>
+                                    <p>بداية المشروع مع جامعة لوزان</p>
+                                </div>
+                                <div class="update">
+                                    <span class="update-date">فبراير 2025</span>
+                                    <p>بدء العمل الميداني في المواقع الأثرية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/كير-removebg-preview.png" alt="الروبوت الذكي المساعد" />
+                            </div>
+                            <span class="project-title-text">الروبوت الذكي المساعد</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2025</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>يهدف مشروع "الروبوت الذكي المساعد" إلى تطوير روبوت متقدم قادر على أداء مهام متعددة في البيئات المنزلية والصناعية. تم التركيز على الذكاء الاصطناعي والتعلم الآلي لجعل الروبوت قادراً على التكيف مع احتياجات المستخدمين وتقديم حلول ذكية وفعالة. المشروع يمثل خطوة نحو المستقبل، حيث تتكامل التكنولوجيا مع الحياة اليومية بشكل سلس وآمن.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2025</span>
+                                <span>تاريخ التنفيذ: 2024</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">يوليو 2024</span>
+                                    <p>بداية تطوير الروبوت الذكي</p>
+                                </div>
+                                <div class="update">
+                                    <span class="update-date">سبتمبر 2024</span>
+                                    <p>إطلاق النسخة التجريبية من الروبوت</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/كير-removebg-preview.png" alt="مشروع الذكاء الاصطناعي" />
+                            </div>
+                            <span class="project-title-text">مشروع الذكاء الاصطناعي</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2025</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>مشروع رائد يهدف إلى دمج تقنيات الذكاء الاصطناعي في ربط الأجهزة الذكية، مما يفتح آفاقاً جديدة في عالم الأتمتة والتحكم الذكي. تم تطوير أنظمة متقدمة لتحليل البيانات واتخاذ القرارات بشكل فوري، ما ساهم في رفع كفاءة الأجهزة وتسهيل حياة المستخدمين. المشروع يضع الأساس لجيل جديد من الحلول الذكية المتكاملة.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2025</span>
+                                <span>تاريخ التنفيذ: 2024</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">أكتوبر 2024</span>
+                                    <p>بداية تطوير نظام الربط</p>
+                                </div>
+                                <div class="update">
+                                    <span class="update-date">نوفمبر 2024</span>
+                                    <p>إطلاق النظام المتكامل</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- هنا أضيف مربع دوت الأردن بعد مشروع الذكاء الاصطناعي -->
+                <div class="timeline-item fade-in animate">
+                    <div class="timeline-content project-arabia">
+                        <div class="project-header">
+                            <div class="thumbs-group">
+                                <img class="thumb-plain" src="images/dot-logo-jordan.svg" alt="دوت الأردن" />
+                            </div>
+                            <span class="project-title-text">ميسر تواصل ومسؤول قسم الإعلان - دوت الأردن</span>
+                            <span class="project-year" style="background:none;color:#6a82fb;font-size:1.1rem;font-weight:600;">2025</span>
+                            <button class="project-toggle" aria-label="إظهار التفاصيل">
+                                <span class="arrow-icon">▼</span>
+                            </button>
+                        </div>
+                        <div class="project-details" style="max-height:0;overflow:hidden;opacity:0;transition:max-height 0.5s,opacity 0.4s;margin-top:0;">
+                            <p>العمل كميسر تواصل اجتماعي ومسؤول قسم الإعلان لدى شركة دوت الأردن، يشمل تنسيق الحملات الإعلامية، إدارة التواصل مع العملاء، والإشراف على المحتوى الإعلاني الرقمي.</p>
+                            <div class="project-dates">
+                                <span>تاريخ الإنشاء: 2025</span>
+                                <span>تاريخ التنفيذ: 2025</span>
+                            </div>
+                            <div class="project-updates">
+                                <div class="update">
+                                    <span class="update-date">يونيو 2025</span>
+                                    <p>الانضمام إلى فريق دوت الأردن وتأسيس قسم الإعلان والتواصل الاجتماعي في مركز صناع الأمل في مخيم الأزرق القرية الثالثة.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="index.html#about">نبذة عني</a></li>
+                    <li><a href="index.html#projects">المشاريع</a></li>
+                    <li><a href="index.html#skills">المهارات</a></li>
+                    <li><a href="index.html#contact">تواصل معي</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>تواصل اجتماعي</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>المشاريع</h3>
+                <ul>
+                    <li><a href="roadmap.html">خارطة المشاريع</a></li>
+                    <li><a href="#">الطاولة الذكية</a></li>
+                    <li><a href="#">مشروع الروبوت</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 محمد صالح العلي. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/roadmap.js"></script>
+
+ <div class="certificate-modal"></div></body></html>
